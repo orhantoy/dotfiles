@@ -1,0 +1,21 @@
+[user]
+	name = Orhan Toy
+	email = toyorhan@gmail.com
+[push]
+	default = current
+[color]
+	ui = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = ~/.gitignore
+	editor = mate -w
+[format]
+	pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
+[alias]
+	st = status
+[apply]
+	whitespace = nowarn
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

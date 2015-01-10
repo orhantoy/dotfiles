@@ -1,0 +1,7 @@
+softWrap = false
+softTabs = true
+tabSize = 2
+showInvisibles = true
+
+includeFiles = "{$includeFiles,.tm_properties,.htaccess,.gitignore,.ruby-version}"
+excludeDirectories = "{$excludeDirectories,tmp,log}"
