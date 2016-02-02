@@ -1,7 +1,6 @@
-export PS1='\[\e[1;30m\]\W \$\[\e[0m\] '
-export CLICOLOR=1
 export EDITOR="$HOME/bin/mate -w"
 export PATH="$HOME/bin:$PATH"
+unset MAILCHECK
 
 # Enable bash auto-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
@@ -12,3 +11,11 @@ fi
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+# Bash it configuration
+export BASH_IT="$HOME/.bash_it"
+export BASH_IT_THEME='bobby'
+export SCM_CHECK=true
+
+# Load Bash it
+source $BASH_IT/bash_it.sh

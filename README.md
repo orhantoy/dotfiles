@@ -7,12 +7,21 @@ These are my dotfiles.
 - OS X
 - [TextMate](http://macromates.com)
 - [Homebrew](http://brew.sh)
+- [Bash it](https://github.com/Bash-it/bash-it)
 
 Install [rbenv](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x) and [rcm](https://github.com/thoughtbot/rcm#installation):
 
     brew update
     brew tap thoughtbot/formulae
     brew install rbenv ruby-build rcm
+
+Install also [bash it](https://github.com/Bash-it/bash-it#install).
+
+To enable bash completion (and newest version of bash):
+
+    brew install bash bash-completion
+    # Add /usr/local/bin/bash to /etc/shells
+    chsh -s /usr/local/bin/bash
 
 ## Install
 
