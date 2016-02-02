@@ -3,6 +3,10 @@ export PATH="$HOME/bin:$PATH"
 unset MAILCHECK
 alias oku="/usr/local/bin/heroku"
 
+if [ -f $HOME/.private_bashrc ]; then
+  . $HOME/.private_bashrc
+fi
+
 # Enable bash auto-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
