@@ -1,6 +1,7 @@
 export EDITOR="$HOME/bin/mate -w"
 export PATH="$HOME/bin:$PATH"
 unset MAILCHECK
+alias oku="/usr/local/bin/heroku"
 
 # Enable bash auto-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
