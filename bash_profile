@@ -18,6 +18,16 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+# Enable pyenv shims and autocompletion
+if which pyenv > /dev/null; then
+  eval "$(pyenv init -)"
+fi
+
+# Enable pyenv-virtualenv shims and autocompletion
+if which pyenv-virtualenv-init > /dev/null; then
+  eval "$(pyenv virtualenv-init -)"
+fi
+
 # Bash it configuration
 export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME='bobby'
