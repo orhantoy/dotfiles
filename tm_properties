@@ -3,5 +3,5 @@ softTabs = true
 tabSize = 2
 showInvisibles = true
 
-includeFiles = "{$includeFiles,.tm_properties,.htaccess,.gitignore,.ruby-version,.rbenv-version,.env,.rbenv-vars}"
-excludeDirectories = "{$excludeDirectories,tmp,log}"
+includeFiles = "{$includeFiles,.tm_properties,.htaccess,.gitignore,.ruby-version,.rbenv-version,.env,.env.*,.rbenv-vars,.hound.yml,.*-style.yml,.*-style.json,.eslintrc,.bowerrc,.ember-cli,.jshintrc,.rubocop.yml,.travis.yml}"
+excludeDirectories = "{$excludeDirectories,tmp,log,node_modules,bower_components}"
