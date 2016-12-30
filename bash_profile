@@ -1,4 +1,4 @@
-export EDITOR="$HOME/bin/mate -w"
+export EDITOR="/usr/local/bin/mate -w"
 export PATH="$HOME/bin:$PATH"
 unset MAILCHECK
 alias oku="/usr/local/bin/heroku"
