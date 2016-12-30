@@ -35,3 +35,8 @@ export SCM_CHECK=true
 
 # Load Bash it
 source $BASH_IT/bash_it.sh
+
+export HISTCONTROL=ignoredups:erasedups
+export HISTSIZE=50000
+export HISTFILESIZE=50000
+shopt -s histappend
